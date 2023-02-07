@@ -41,7 +41,7 @@ export default defineConfig({
     '/hooks': [
       {
         title: 'Dom',
-        children: ['hooks/dom/useClickAway'],
+        children: ['hooks/dom/useEventListener', 'hooks/dom/useClickAway'],
       },
     ],
   },
