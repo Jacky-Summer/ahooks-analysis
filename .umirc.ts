@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'ahooks-analysis';
 
 export default defineConfig({
   title: repo,
@@ -15,11 +15,35 @@ export default defineConfig({
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
   navs: [
-    null,
+    {
+      title: '指南',
+      path: '/guide',
+    },
+    {
+      title: 'Hooks',
+      path: '/hooks',
+    },
+    {
+      title: 'ahooks 官网',
+      path: 'https://ahooks.js.org/zh-CN',
+    },
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-template',
+      path: 'https://github.com/Jacky-Summer/ahooks-analysis',
+    },
+    {
+      title: '关于我',
+      path: 'https://github.com/Jacky-Summer',
     },
   ],
+  locales: [['zh-CN', '中文']],
+  menus: {
+    '/hooks': [
+      {
+        title: 'Dom',
+        children: ['hooks/dom/useClickAway'],
+      },
+    ],
+  },
   // more config: https://d.umijs.org/config
 });
