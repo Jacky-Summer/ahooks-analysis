@@ -1,17 +1,17 @@
-## useDocumentVisibility
+# useDocumentVisibility
 
 监听页面是否可见。
 
-### 使用场景
+## 使用场景
 
 当页面在背景中或窗口最小化时禁止或开启某些活动，如离开页面停止播放音视频、暂停轮询接口请求
 
-### 实现思路
+## 实现思路
 
 1. 定义并暴露给外部`document.visibilityState`状态值，通过该字段判断页面是否可见
 2. 监听 `visibilitychange` 事件（使用 document 注册），触发回调时更新状态值
 
-### Document.visibilityState 与 visibilitychange 事件
+## Document.visibilityState 与 visibilitychange 事件
 
 **[Document.visibilityState](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/visibilityState)**（只读属性）
 
@@ -31,7 +31,7 @@
 
 推荐阅读：[Page Visibility API 教程](http://www.ruanyifeng.com/blog/2018/10/page_visibility_api.html)
 
-### 核心实现
+## 核心实现
 
 ```ts
 type VisibilityState = 'hidden' | 'visible' | 'prerender' | undefined;

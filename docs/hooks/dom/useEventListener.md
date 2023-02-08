@@ -1,18 +1,18 @@
-## useEventListener
+# useEventListener
 
 优雅的使用 addEventListener。
 
-### 使用场景
+## 使用场景
 
 通用事件监听 Hook，简化写法（无需在 useEffect 卸载函数中手动移除监听函数，由内部去移除）
 
-### 实现思路
+## 实现思路
 
 1. 判断是否支持 addEventListener
 2. 在单独只有 useEffect 实现事件监听移除的基础上，将相关参数都由外部传入，并添加到依赖项
 3. 处理事件参数的 TS 类型，addEventListener 的第三个参数也需要由外部传入
 
-### 核心实现
+## 核心实现
 
 - [EventTarget.addEventListener()](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)：将指定的监听器注册到 EventTarget 上，当该对象触发指定的事件时，指定的回调函数就会被执行
 
