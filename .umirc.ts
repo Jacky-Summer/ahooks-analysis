@@ -45,6 +45,8 @@ export default defineConfig({
           'hooks/dom/useEventListener',
           'hooks/dom/useClickAway',
           'hooks/dom/useDocumentVisibility',
+          'hooks/dom/useDrop',
+          'hooks/dom/useDrag',
         ],
       },
     ],
