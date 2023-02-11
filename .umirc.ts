@@ -47,6 +47,7 @@ export default defineConfig({
           'hooks/dom/useDocumentVisibility',
           'hooks/dom/useDrop',
           'hooks/dom/useDrag',
+          'hooks/dom/useEventTarget',
         ],
       },
     ],
