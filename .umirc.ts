@@ -48,6 +48,7 @@ export default defineConfig({
           'hooks/dom/useDrop',
           'hooks/dom/useDrag',
           'hooks/dom/useEventTarget',
+          'hooks/dom/useExternal',
         ],
       },
     ],
