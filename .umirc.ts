@@ -49,6 +49,7 @@ export default defineConfig({
           'hooks/dom/useDrag',
           'hooks/dom/useEventTarget',
           'hooks/dom/useExternal',
+          'hooks/dom/useTitle',
         ],
       },
     ],
