@@ -50,6 +50,7 @@ export default defineConfig({
           'hooks/dom/useEventTarget',
           'hooks/dom/useExternal',
           'hooks/dom/useTitle',
+          'hooks/dom/useFavicon',
         ],
       },
     ],
