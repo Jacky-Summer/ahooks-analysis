@@ -52,6 +52,7 @@ export default defineConfig({
           'hooks/dom/useTitle',
           'hooks/dom/useFavicon',
           'hooks/dom/useFullscreen',
+          'hooks/dom/useHover',
         ],
       },
     ],
