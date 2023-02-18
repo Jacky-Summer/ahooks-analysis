@@ -53,6 +53,7 @@ export default defineConfig({
           'hooks/dom/useFavicon',
           'hooks/dom/useFullscreen',
           'hooks/dom/useHover',
+          'hooks/dom/useInViewport',
         ],
       },
     ],
