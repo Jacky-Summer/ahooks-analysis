@@ -54,6 +54,7 @@ export default defineConfig({
           'hooks/dom/useFullscreen',
           'hooks/dom/useHover',
           'hooks/dom/useInViewport',
+          'hooks/dom/useKeyPress',
         ],
       },
     ],
