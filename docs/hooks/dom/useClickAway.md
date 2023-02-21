@@ -124,7 +124,7 @@ if (isFunction(target)) {
 
 ### 注意 React17+版本的坑
 
-Reactv17 前，React 将事件委托到 document 上，在 Reactv17 前中，则委托到根节点，具体见该文：
+Reactv17 前，React 将事件委托到 document 上，在 Reactv17 及以后，则委托到根节点，具体见该文：
 
 - [ahooks 的 useClickAway 在 React 17 中不工作了！](https://juejin.cn/post/7110470986419404813)
 
