@@ -56,6 +56,7 @@ export default defineConfig({
           'hooks/dom/useInViewport',
           'hooks/dom/useKeyPress',
           'hooks/dom/useLongPress',
+          'hooks/dom/useMouse',
         ],
       },
     ],
