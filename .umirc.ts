@@ -57,6 +57,7 @@ export default defineConfig({
           'hooks/dom/useKeyPress',
           'hooks/dom/useLongPress',
           'hooks/dom/useMouse',
+          'hooks/dom/useResponsive',
         ],
       },
     ],
