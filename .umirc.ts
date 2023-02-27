@@ -58,6 +58,7 @@ export default defineConfig({
           'hooks/dom/useLongPress',
           'hooks/dom/useMouse',
           'hooks/dom/useResponsive',
+          'hooks/dom/useScroll',
         ],
       },
     ],
