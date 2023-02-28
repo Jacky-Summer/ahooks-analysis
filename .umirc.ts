@@ -59,6 +59,7 @@ export default defineConfig({
           'hooks/dom/useMouse',
           'hooks/dom/useResponsive',
           'hooks/dom/useScroll',
+          'hooks/dom/useSize',
         ],
       },
     ],
