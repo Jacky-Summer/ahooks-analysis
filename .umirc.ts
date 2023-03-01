@@ -60,6 +60,7 @@ export default defineConfig({
           'hooks/dom/useResponsive',
           'hooks/dom/useScroll',
           'hooks/dom/useSize',
+          'hooks/dom/useFocusWithin',
         ],
       },
     ],
