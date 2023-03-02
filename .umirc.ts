@@ -61,6 +61,7 @@ export default defineConfig({
           'hooks/dom/useScroll',
           'hooks/dom/useSize',
           'hooks/dom/useFocusWithin',
+          'hooks/dom/useControllableValue',
         ],
       },
     ],
