@@ -62,9 +62,7 @@ React 官方对[受控组件](https://zh-hans.reactjs.org/docs/forms.html#contro
 
 ## 实现思路
 
-1. 接受组件的参数
-2. 如果在组件的 props 中，存在名为[valuePropName]的属性，发生变化时直接变更对应的属性
-3. 如果在组件的 props 中，存在名为[trigger]的时间，则调用 handleSetState 方法时,直接触发对应的[trigger]方法
+根据 props 是否有`[valuePropName]`属性来判断是否受控。如受控：则值由父级接管；否则组件内部状态维护；初始值的设置也遵循该逻辑。
 
 ## 核心实现
 
@@ -88,7 +86,7 @@ function useControllableValue<T = any>(
   } = options;
   // 外部（父级）传递进来的 props 值
   const value = props[valuePropName] as T;
-  // 是否受控：判断 valuePropName（默认即表示value属性），有值代表受控
+  // 是否受控：判断 valuePropName（默认即表示value属性），有该属性代表受控
   const isControlled = props.hasOwnProperty(valuePropName);
 
   // 首次默认值
