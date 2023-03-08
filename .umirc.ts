@@ -63,6 +63,7 @@ export default defineConfig({
           'hooks/dom/useFocusWithin',
           'hooks/advanced/useControllableValue',
           'hooks/advanced/useCreation',
+          'hooks/advanced/useEventEmitter',
         ],
       },
     ],
