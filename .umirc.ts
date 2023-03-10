@@ -65,6 +65,7 @@ export default defineConfig({
           'hooks/advanced/useCreation',
           'hooks/advanced/useEventEmitter',
           'hooks/advanced/useIsomorphicLayoutEffect',
+          'hooks/advanced/useLatest',
         ],
       },
     ],
