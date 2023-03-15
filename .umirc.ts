@@ -67,6 +67,7 @@ export default defineConfig({
           'hooks/advanced/useIsomorphicLayoutEffect',
           'hooks/advanced/useLatest',
           'hooks/advanced/useMemoizedFn',
+          'hooks/advanced/useReactive',
         ],
       },
     ],
