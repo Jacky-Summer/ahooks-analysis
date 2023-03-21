@@ -69,6 +69,7 @@ export default defineConfig({
           'hooks/advanced/useMemoizedFn',
           'hooks/advanced/useReactive',
           'hooks/state/useSetState',
+          'hooks/state/useToggle',
         ],
       },
     ],
