@@ -70,6 +70,8 @@ export default defineConfig({
           'hooks/advanced/useReactive',
           'hooks/state/useSetState',
           'hooks/state/useToggle',
+          'hooks/state/useBoolean',
+          'hooks/state/useCookieState',
         ],
       },
     ],
