@@ -72,6 +72,7 @@ export default defineConfig({
           'hooks/state/useToggle',
           'hooks/state/useBoolean',
           'hooks/state/useCookieState',
+          'hooks/state/useLocalStorageState',
         ],
       },
     ],
