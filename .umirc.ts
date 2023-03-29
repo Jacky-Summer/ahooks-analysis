@@ -73,6 +73,7 @@ export default defineConfig({
           'hooks/state/useBoolean',
           'hooks/state/useCookieState',
           'hooks/state/useLocalStorageState',
+          'hooks/state/useSessionStorageState',
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
         ],
