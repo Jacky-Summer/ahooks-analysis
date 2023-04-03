@@ -75,6 +75,7 @@ export default defineConfig({
           'hooks/state/useLocalStorageState',
           'hooks/state/useSessionStorageState',
           'hooks/state/useDebounce',
+          'hooks/state/useThrottle',
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
         ],
