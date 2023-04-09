@@ -78,6 +78,7 @@ export default defineConfig({
           'hooks/state/useThrottle',
           'hooks/state/useMap',
           'hooks/state/useSet',
+          'hooks/state/usePrevious',
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
         ],
