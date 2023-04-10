@@ -79,6 +79,7 @@ export default defineConfig({
           'hooks/state/useMap',
           'hooks/state/useSet',
           'hooks/state/usePrevious',
+          'hooks/state/useRafState',
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
         ],
