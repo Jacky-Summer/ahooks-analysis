@@ -82,6 +82,7 @@ export default defineConfig({
           'hooks/state/useRafState',
           'hooks/state/useSafeState',
           'hooks/state/useGetState',
+          'hooks/state/useResetState',
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
         ],
