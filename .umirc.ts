@@ -85,6 +85,7 @@ export default defineConfig({
           'hooks/state/useResetState',
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
+          'hooks/effect/useUpdateEffect',
         ],
       },
     ],
