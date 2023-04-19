@@ -86,6 +86,7 @@ export default defineConfig({
           'hooks/dev/useTrackedEffect',
           'hooks/dev/useWhyDidYouUpdate',
           'hooks/effect/useUpdateEffect',
+          'hooks/effect/useUpdateLayoutEffect',
         ],
       },
     ],
