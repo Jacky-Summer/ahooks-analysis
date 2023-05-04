@@ -89,6 +89,7 @@ export default defineConfig({
           'hooks/effect/useUpdateLayoutEffect',
           'hooks/effect/useDebounceFn',
           'hooks/effect/useAsyncEffect',
+          'hooks/effect/useDebounceEffect',
         ],
       },
     ],
