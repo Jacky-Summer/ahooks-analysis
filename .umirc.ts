@@ -90,6 +90,7 @@ export default defineConfig({
           'hooks/effect/useDebounceFn',
           'hooks/effect/useAsyncEffect',
           'hooks/effect/useDebounceEffect',
+          'hooks/effect/useThrottleFn',
         ],
       },
     ],
