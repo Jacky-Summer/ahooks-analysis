@@ -92,6 +92,7 @@ export default defineConfig({
           'hooks/effect/useDebounceEffect',
           'hooks/effect/useThrottleFn',
           'hooks/effect/useThrottleEffect',
+          'hooks/effect/useDeepCompareEffect',
         ],
       },
     ],
