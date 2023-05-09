@@ -93,6 +93,7 @@ export default defineConfig({
           'hooks/effect/useThrottleFn',
           'hooks/effect/useThrottleEffect',
           'hooks/effect/useDeepCompareEffect',
+          'hooks/effect/useInterval',
         ],
       },
     ],
