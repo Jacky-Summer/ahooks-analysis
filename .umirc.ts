@@ -95,6 +95,7 @@ export default defineConfig({
           'hooks/effect/useDeepCompareEffect',
           'hooks/effect/useInterval',
           'hooks/effect/useRafInterval',
+          'hooks/effect/useLockFn',
         ],
       },
     ],
