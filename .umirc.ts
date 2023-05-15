@@ -96,6 +96,7 @@ export default defineConfig({
           'hooks/effect/useInterval',
           'hooks/effect/useRafInterval',
           'hooks/effect/useLockFn',
+          'hooks/effect/useUpdate',
         ],
       },
     ],
