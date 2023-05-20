@@ -99,6 +99,7 @@ export default defineConfig({
           'hooks/effect/useUpdate',
           'hooks/lifecycle/useMount',
           'hooks/lifecycle/useUnmount',
+          'hooks/lifecycle/useUnmountedRef',
         ],
       },
     ],
