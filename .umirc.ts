@@ -100,6 +100,7 @@ export default defineConfig({
           'hooks/lifecycle/useMount',
           'hooks/lifecycle/useUnmount',
           'hooks/lifecycle/useUnmountedRef',
+          'hooks/scene/useCounter',
         ],
       },
     ],
